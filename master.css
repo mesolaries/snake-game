@@ -1,0 +1,28 @@
+#game-area {
+  width: 800px;
+  height: 600px;
+  background-image: url('bg.png');
+  border-collapse: collapse;
+  outline: thick solid #b0b0b0;
+  background-size: contain;
+}
+
+.player {
+  background-color: #fff600;
+}
+.food {
+  background-image: url('apple.png');
+  background-size: contain;
+}
+
+.head {
+  background-color: orange !important;
+}
+
+#score {
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 18px;
+  text-shadow: 3px 3px 2px grey;
+  font-weight: bold;
+}
